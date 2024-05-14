@@ -1,0 +1,9 @@
+requests == 2.31.0
+beautifulsoup4 == 4.12.3
+Faker==0.7.4
+fastparquet==2023.8.0
+minio==7.1.16
+PyYAML==6.0.1
+pyspark==3.3.2
+pydeequ==1.0.1
+python-dotenv==1.0.0

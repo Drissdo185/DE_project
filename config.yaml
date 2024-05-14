@@ -1,0 +1,10 @@
+raw_data:
+  folder_path: data
+  num_files: 10
+
+minio_datalake:
+  endpoint: localhost:9000
+  bucket_name: financedata
+  folder_name: fi_data
+  access_key: minio_access_key
+  secret_key: minio_secret_key
