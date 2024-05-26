@@ -3,12 +3,12 @@ from helpers import load_cfg
 from glob import glob
 import os
 
-CFG_FILE = "../config.yaml"
+CFG_FILE = "config.yaml"
 
 
 def main():
     cfg = load_cfg(CFG_FILE)
-    datalake_cfg = cfg["datalake"]
+    datalake_cfg = cfg["minio_datalake"]
     raw_data_cfg = cfg["raw_data"]
 
     # Create a client with the MinIO server playground, its access key
