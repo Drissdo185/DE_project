@@ -3,15 +3,15 @@ raw_data:
   num_files: 2
 
 minio_datalake:
-  endpoint: localhost:9001
+  endpoint: localhost:9000
   bucket_name: bronze-data  
   folder_name: raw_data
   access_key: minio_access_key
   secret_key: minio_secret_key
 
 minio_lakehouse:
-  endpoint: localhost:9002
+  endpoint: localhost:9000
   bucket_name: silver-data  
-  folder_name: raw_data
+  folder_name: transformed_data
   access_key: minio_access_key
   secret_key: minio_secret_key
